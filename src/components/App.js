@@ -18,8 +18,8 @@ class App extends React.Component{
     console.log(`Rending with count :- ${this.state.count}`)
     return(
         <div>
-            <span id='count'>{this.state.count}</span>
-            <button id='inc-btn' onClick={this.handleClick}>Increment</button>
+            <span id="count">{this.state.count}</span>
+            <button id="incr-btn" onClick={this.handleClick}>Increment</button>
         </div>
     )
   }
